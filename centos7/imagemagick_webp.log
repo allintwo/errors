@@ -1,0 +1,7 @@
+[2022-12-05 05:39:16] INFO  ....Creating thumbs for "180x100" format [PH-C-9-2:180x100]
+[2022-12-05 05:39:38] INFO  ....Creating thumbs for "182x100" format [PH-C-9-2:182x100]
+[2022-12-05 05:39:38] ERROR ......../bin/convert -quality 80  -size 133x100 xc:"#000000" /home/mobie/public_html/admin/data/conversion/25/temp.bmp -gravity Center -composite   webp:/home/mobie/public_html/admin/data/conversion/25/timelines/182x100/mp4_1.jpg
+....convert: delegate failed `'cwebp' -quiet %Q '%i' -o '%o'' @ error/delegate.c/InvokeDelegate/1928.
+[2022-12-05 05:39:38] ERROR ........Failed to create thumb format
+[2022-12-05 05:39:39] INFO  Conversion task 25 for video 9 is finished in 208 sec [PH-CE]
+[2022-12-05 05:40:01] ERROR(7)  Conversion error, cancelling this task [PH-E]
